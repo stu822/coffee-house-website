@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Irene's Coffeehouse</title>
+  </head>
+
+  <body>
+    <nav
+      class="
+        bg-dark
+        navbar-dark navbar navbar-expand-lg navbar-light
+        bg-light
+        sticky-top
+      "
+      id="nav-bar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Irene's Coffeehouse</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#hero"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#hero"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#hero"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://source.unsplash.com/VDstlO2tQL0"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/GJogrGZxKJE"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/gM-RfQsZK98"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#hero"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#hero"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <div class="container">
+      <!-- About Section -->
+      <section class="mt-5" id="about">
+        <div class="row justify-content-center align-items-center" id="about">
+          <div class="col-sm-12 col-md-6">
+            <img
+              src="https://source.unsplash.com/6VhPY27jdps"
+              class="img-fluid"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+              commodi architecto aliquid doloribus corporis, repellendus
+              suscipit? Consequuntur obcaecati, illo facere eveniet veritatis
+              eius facilis quisquam?
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Menu Section -->
+      <section id="menu">
+        <h2 class="text-center col-12 display-3">Menu</h2>
+        <!-- Coffee -->
+        <div class="row justify-content-center align-items-center item-section">
+          <div class="col-12 col-md-5">
+            <img
+              src="https://source.unsplash.com/U4wcrDteZ2Y"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-12 col-md-7 align-items-center justify-content-end">
+            <div class="row">
+              <div class="col-6"></div>
+              <div class="col-12 col-md-6">
+                <p class="h3 coffee-item text-center text-md-start">Coffee</p>
+                <p class="ps-4">
+                  Freshly brewed coffee from many places around the world
+                  including Ethopia, Brazil, and Colombia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Lattes -->
+        <div
+          class="
+            row
+            justify-content-center
+            align-items-center
+            pt-3
+            mt-3
+            item-section
+          "
+        >
+          <div class="col-12 col-md-7">
+            <div class="row align-items-center">
+              <p class="h3 coffee-item mt-2 pb-2 text-center text-md-start">
+                Lattes
+              </p>
+              <div class="col-12">
+                <h5 class="text-center text-md-start">Terry's Latte</h5>
+                <p class="ps-4 w-md-50">
+                  Creamy latte with half and half, nutmeg, vanilla, and a dash
+                  of sea salt.
+                </p>
+              </div>
+              <div class="col-12">
+                <h5 class="text-center text-md-start">Northern Latte</h5>
+                <p class="ps-4 w-md-50">
+                  Freshly pulled espresso with maple syrup, caramel, and
+                  cinnimon topping. You feel like you just woke up to the
+                  sunrise on the Boardary Waters!
+                </p>
+              </div>
+              <div class="col-12">
+                <h5 class="text-center text-md-start">Cherry Grove Mocha</h5>
+                <p class="ps-4 w-md-50">
+                  Fresh cherry syrup with melted dark chocolate and topped with
+                  whipped cream and chocolate shavings. Great way to keep
+                  yourself awake for a night of stargazing!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="https://source.unsplash.com/kSlL887znkE"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="row item-section">
+          <div class="col-12 col-md-5">
+            <img
+              src="https://source.unsplash.com/esTP6gqfm54"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-7">
+            <div class="row align-items center">
+              <div class="col-12">
+                <h4 class="text-center coffee-item w-100">Iced Drinks</h4>
+                <div class="row">
+                  <div class="d-none d-md-block col-md-6"></div>
+                  <div class="col-12 col-md-6">
+                    <p class="h5 text-center text-md-start">The Icebox</p>
+                    <p class="ps-4">
+                      Twenty-four hour steeped cold brew with vanilla syrup and
+                      topped with creamy half and half
+                    </p>
+                    <p class="h5 text-center text-md-start">Dog Days Latte</p>
+                    <p class="ps-4">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Repudiandae, accusamus error! Numquam?
+                    </p>
+                    <p class="h5 text-center text-md-start">The Icebox</p>
+                    <p class="ps-4">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Repudiandae, accusamus error! Numquam?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center pt-3 mt-3">
+          <div class="col-7">
+            <div class="row align-items-center justify-content-center">
+              <h4 class="text-center coffee-item">Teas</h4>
+              <div class="col-12">
+                <p class="text-center px-4">
+                  Decadant variety of teas including Black, Green, and Oolong.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="https://source.unsplash.com/EE6fFDyEtRc"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="location">
+        <h2 class="text-center col-12 display-3">Hours and Location</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img
+              src="https://source.unsplash.com/Dlj-SxxTlQ0"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4 d-md-block d-none"></div>
+              <div class="col-md-7 justify-content-end">
+                <div class="row">
+                  <div class="col-6">
+                    <p class="h4 mt-md-5">Location</p>
+                    <p class="mb-1">123 Fake Street,</p>
+                    <p class="mt-1">Minneapolis, 55114</p>
+                  </div>
+                  <div class="col-6 mt-md-2" id="second-list">
+                    <p class="h4">Hours</p>
+                    <p class="h6">Saturday - Sunday</p>
+                    <p class="">12pm - 5pm</p>
+                    <p class="h6">Monday - Friday</p>
+                    <p class="">6am - 8pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="d-none d-lg-block">
+        <div class="row justify-content-center align-items-center">
+          <div id="showcase">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-8">
+                  <div class="container overflow-hidden">
+                    <div class="row">
+                      <div class="col-4 g-3">
+                        <img
+                          src="https://source.unsplash.com/2rZq49uGxLk"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-4 g-3">
+                        <img
+                          src="https://source.unsplash.com/f7zm5TDOi4g"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-4 g-3">
+                        <img
+                          src="https://source.unsplash.com/6id8NVNI9z4"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-4 g-3">
+                        <img
+                          src="https://source.unsplash.com/UvWlksgZGPE"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-4 g-3">
+                        <img
+                          src="https://source.unsplash.com/vpvSz3QvqF4"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-4 g-3">
+                        <img
+                          src="https://source.unsplash.com/8jp-6SjVibM"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-5">
+            <p class="text-center">Subscribe to our Newsletter!</p>
+            <div class="input-group input-group-sm mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="button-addon2"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="d-none d-md-block col-3">
+            <p class="h6">Site Map</p>
+            <ul id="site-map-list">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#location">Location</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-6">
+              <p class="text-md-end">&copy; 2021 Irene Coffeehouse Inc</p>
+            </div>
+            <div class="col-6">
+              <p class="text-md-start">Created by Abel Studios</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
