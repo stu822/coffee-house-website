@@ -36,9 +36,6 @@ nav {
   height: 100vh;
 }
 /* Menu */
-#menu {
-  padding-top: 100px;
-}
 
 .item-section {
   margin-top: 25vh;
@@ -50,12 +47,11 @@ nav {
 
 .item-section:first-of-type {
   margin-top: 50px;
-  margin-bottom: 30vh;
+  /* margin-bottom: 30vh; */
 }
 /* Location */
 #location {
   height: 100vh;
-  padding-top: 200px;
 }
 #location div {
   margin-top: 20px;
@@ -88,4 +84,18 @@ nav {
 
 .nav-link:hover {
   color: #b68f58 !important;
+}
+
+@media (min-width: 968px) {
+  #menu {
+    padding-top: 100px;
+  }
+
+  .item-section:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 30vh;
+  }
+  #location {
+    padding-top: 200px;
+  }
 }
